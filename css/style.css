@@ -1,0 +1,105 @@
+html{ 
+    font-size: 62.5%;
+    background-color: #53caf5;
+}
+body{
+    font: 1.6rem "Roboto",sans-serif;
+    margin: 0;
+    color: var(--default-color);
+    background-color: #53caf5 ;
+    letter-spacing: 0.2rem;
+    line-height: 1.6;
+}
+
+
+h1,h2,ul,figure{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+
+img{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+header h1 {
+    font-family: 'Lobster', cursive;
+    background-color: #186a87;
+    color: #fff;
+    padding : 1rem;
+    text-align: center;
+}
+
+main section{
+    background-color: #fff;
+    max-width: 80rem;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+section h2{
+    font-family: 'Lobster', cursive;
+    color: #186a87;
+    text-align: justify;
+}
+ 
+figcaption h2, figcaption  p{
+    text-align: center;
+}
+
+figcaption h2, figcaption ul li {
+    padding:1rem;
+}
+figcaption ul li {
+    background-color: #07384a;
+    color : #fff;
+    margin: .1rem;
+}
+
+div, footer {
+    background-color: #53caf5;
+    max-width: 80rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.button{
+    color : #fff;
+    padding-inline: 5rem;
+    border-width: 0.3rem;
+    cursor: pointer;
+    border-radius: 0.8rem;
+    line-height: 4rem;
+
+}
+
+div  {
+ background-color: #fff;
+}
+
+.button.rechercher{
+    background-color: #006eff;
+}
+
+.button.vider{
+    background-color: #ff1814;
+}
+
+.button.ajouter{
+    background-color: #1aff00;
+}
+
+
+
+footer{
+    background-color: #07384a;
+    color : #fff;
+}
